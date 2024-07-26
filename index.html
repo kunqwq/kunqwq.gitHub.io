@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>坤的个人主页</title>
-</head>
 <body background="http://doic.cn/d/up/24072613_1.jpg"
       style="background-repeat: no-repeat;
       background-attachment: fixed;
@@ -18,12 +17,44 @@
       <p><a href="https://github.com/kunqwq">Github</a></p>
       </div>
       
-    <div style="text-align: center;line-height: 3;">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url('http://doic.cn/d/up/24072613_1.jpg'); /* Replace with your background image URL */
+            background-size: cover;
+            background-position: center;
+        }
+        .frosted-glass {
+            width: 300px;
+            height: 200px;
+            background: rgba(255, 255, 255, 0.3); /* Semi-transparent white background */
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px); /* For Safari */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #333;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="frosted-glass">
+        <p><div style="text-align: center;line-height: 3;">
         <b>有人放下远行的行囊<br>
         在街头巷尾探索曾被忽略的不寻常<br>
         有人翻越城市周边的山川<br>
         把拥抱自然写进生活日常</b>
+    </div></p>
     </div>
-  </body>
-    
+</body>
 </html>
